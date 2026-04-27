@@ -11,7 +11,7 @@ function HistoryList({ historico, onSelect }) {
             className="list-group-item list-group-item-action"
             onClick={() => onSelect(p)}
           >
-            <strong>{p.name}</strong> - R$ {p.price}
+            <!-- <strong>{p.name}</strong> - R$ {p.price} -->
           </button>
         ))}
       </div>
