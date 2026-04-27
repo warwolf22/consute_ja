@@ -9,7 +9,7 @@ function ProductCard({ produto }) {
       <div className="card-body">
         <h5 className="card-title">{produto.name}</h5>
         <p className="card-text">{produto.description}</p>
-        <!-- <p className="card-text"><strong>Preço:</strong> R$ {produto.price}</p> -->
+        {/* <p className="card-text"><strong>Preço:</strong> R$ {produto.price}</p> */}
       </div>
     </div>
   );
